@@ -1,0 +1,11 @@
+C:\nginx\mysql\bin\mysqld.exe --install MySQL --defaults-file="C:\nginx\mysql\my-default.ini"
+
+mysqld --initialize --user=mysql
+Добавить mysql в path
+mysql -u root -p
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
+
+
+
+//C:\nginx\mysql\bin\mysqld.exe --console --skip-grant-tables
